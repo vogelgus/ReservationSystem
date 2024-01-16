@@ -73,9 +73,9 @@ public class Oya implements ActionListener{
         timeSetSortButton.addActionListener(this);
         addReservation = new JButton("Add a Reservation");
         addReservation.addActionListener(this);
-        addTime = new JTextField("When is this for?  M-dd-yyyy k:mm");
+        addTime = new JTextField("When did you set this?  M-dd-yyyy k:mm");
         addNumPeople = new JTextField("Write in the number of people");
-        addTimeSet = new JTextField("When did you set this? M-dd-yyyy k:mm");
+        addTimeSet = new JTextField("When is this for? M-dd-yyyy k:mm");
 
         try {
             BufferedImage myPicture = ImageIO.read(new File("OyaLogo.png"));
